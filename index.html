@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>austenå.no – Oversikt over subdomener</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding: 2rem; }
+    h1 { font-size: 2rem; font-weight: 700; color: #f8fafc; margin-bottom: 0.5rem; }
+    .subtitle { color: #94a3b8; margin-bottom: 2rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+    .card { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 1.25rem; text-decoration: none; color: inherit; transition: all 0.2s; display: flex; flex-direction: column; gap: 0.5rem; }
+    .card:hover { border-color: #6366f1; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(99,102,241,0.15); }
+    .card-number { font-size: 2rem; font-weight: 800; color: #6366f1; }
+    .card-domain { font-size: 1rem; font-weight: 600; color: #f1f5f9; }
+    .card-type { font-size: 0.75rem; padding: 2px 8px; border-radius: 9999px; font-weight: 600; width: fit-content; }
+    .github { background: #1f2937; color: #60a5fa; border: 1px solid #374151; }
+    .firebase { background: #1c1917; color: #fb923c; border: 1px solid #292524; }
+    .www-card { background: linear-gradient(135deg, #1e293b, #312e81); border-color: #6366f1; }
+    .status { margin-top: auto; font-size: 0.75rem; color: #64748b; }
+    header { margin-bottom: 2rem; }
+    .legend { display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.85rem; color: #94a3b8; }
+    .dot { width: 10px; height: 10px; border-radius: 50%; }
+    .dot-github { background: #60a5fa; }
+    .dot-firebase { background: #fb923c; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>austenå.no</h1>
+    <p class="subtitle">Oversikt over alle aktive subdomener og prosjekter</p>
+    <div class="legend">
+      <div class="legend-item"><div class="dot dot-github"></div> GitHub Pages</div>
+      <div class="legend-item"><div class="dot dot-firebase"></div> Firebase / Google</div>
+    </div>
+  </header>
+  <div class="grid">
+    <a href="https://1.xn--austenaa-n2a.no" class="card">
+      <div class="card-number">1</div>
+      <div class="card-domain">1.austenå.no</div>
+      <span class="card-type github">GitHub Pages</span>
+      <div class="status">Ledig – klar til bruk</div>
+    </a>
+    <a href="https://2.xn--austenaa-n2a.no" class="card">
+      <div class="card-number">2</div>
+      <div class="card-domain">2.austenå.no</div>
+      <span class="card-type github">GitHub Pages</span>
+      <div class="status">Ledig – klar til bruk</div>
+    </a>
+    <a href="https://3.xn--austenaa-n2a.no" class="card">
+      <div class="card-number">3</div>
+      <div class="card-domain">3.austenå.no</div>
+      <span class="card-type github">GitHub Pages</span>
+      <div class="status">Ledig – klar til bruk</div>
+    </a>
+    <a href="https://4.xn--austenaa-n2a.no" class="card">
+      <div class="card-number">4</div>
+      <div class="card-domain">4.austenå.no</div>
+      <span class="card-type github">GitHub Pages</span>
+      <div class="status">Ledig – klar til bruk</div>
+    </a>
+    <a href="https://5.xn--austenaa-n2a.no" class="card">
+      <div class="card-number">5</div>
+      <div class="card-domain">5.austenå.no</div>
+      <span class="card-type github">GitHub Pages</span>
+      <div class="status">Ledig – klar til bruk</div>
+    </a>
+    <a href="https://6.xn--austenaa-n2a.no" class="card">
+      <div class="card-number">6</div>
+      <div class="card-domain">6.austenå.no</div>
+      <span class="card-type firebase">Firebase / Google</span>
+      <div class="status">Ledig – klar til bruk</div>
+    </a>
+    <a href="https://7.xn--austenaa-n2a.no" class="card">
+      <div class="card-number">7</div>
+      <div class="card-domain">7.austenå.no</div>
+      <span class="card-type firebase">Firebase / Google</span>
+      <div class="status">Ledig – klar til bruk</div>
+    </a>
+    <a href="https://8.xn--austenaa-n2a.no" class="card">
+      <div class="card-number">8</div>
+      <div class="card-domain">8.austenå.no</div>
+      <span class="card-type firebase">Firebase / Google</span>
+      <div class="status">Ledig – klar til bruk</div>
+    </a>
+    <a href="https://9.xn--austenaa-n2a.no" class="card">
+      <div class="card-number">9</div>
+      <div class="card-domain">9.austenå.no</div>
+      <span class="card-type firebase">Firebase / Google</span>
+      <div class="status">Ledig – klar til bruk</div>
+    </a>
+    <a href="https://10.xn--austenaa-n2a.no" class="card">
+      <div class="card-number">10</div>
+      <div class="card-domain">10.austenå.no</div>
+      <span class="card-type firebase">Firebase / Google</span>
+      <div class="status">Ledig – klar til bruk</div>
+    </a>
+  </div>
+</body>
+</html>
